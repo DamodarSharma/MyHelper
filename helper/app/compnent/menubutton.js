@@ -6,7 +6,9 @@ import Icon from 'react-native-vector-icons/Ionicons';
 export default class menubutton extends Component<{}> {
     render() {
       return (
-            <Icon name="md-menu" style={styles.icones} size={32} color="#900" />
+            <Icon name="md-menu" style={styles.icones} size={32} color="#900"
+            onPress={()=> this.props.navigation.openDrawer() }
+            />
       );
     }
   }
