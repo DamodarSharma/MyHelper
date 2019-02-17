@@ -1,3 +1,38 @@
 React-narive init Helper   // create new prohect
 
 React-narive run-android   // run on android device
+
+npm install --save  react-navigation-stack 
+
+npm install --save -g  react-native-router-flux
+
+ npm install --save -g  react-native-button
+
+ npm install --save -g  react-native-message-bar
+
+
+// Clear cashing 
+
+npm watchman watch-del-all
+ npm rm -rf $TMPDIR/react-*
+ rm -rf $TMPDIR/metro*
+ rm -rf $TMPDIR/haste-*
+
+////////////////////////////
+
+ npm install --save -g  react-navigation
+
+npm install --save -g react-navigation-deprecated-tab-navigator
+npm install --save   react-native-router-flux
+ 
+
+npm install --save react-native-gesture-handler
+
+//// icones
+
+ npm install --save react-native-vector-icons
+ react-native link
+
+chang  android/setting.gradle    this \ to /   in file path.
+
+ npm install --save native-base
